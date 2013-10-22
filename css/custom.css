@@ -20,6 +20,24 @@ body:after{
 }
 
 
+.popup{
+	left: 320px;
+	top: 100px;
+	width: 400px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	padding: 20px;
+	display: none;
+}
+
+
+.popup h3{
+	color: white;
+}
+.popup a{
+	color: black;
+}
+
 #kitten-speech{
 	bottom: 350px;
 	right: 30px;	
@@ -102,6 +120,11 @@ body:after{
 	color: white;
 	background: rgba(255,255,255,0.1);
 	font-size: 30px;
+	cursor: pointer;
+}
+
+#menu li a.active{
+	background: rgba(255,255,255,0.5);
 }
 
 #menu li a:hover{
